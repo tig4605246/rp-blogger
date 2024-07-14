@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/rp-blogger",
   siteMetadata: {
     title: `新竹阿平開發筆記 - Hsin Chu RP's Dev Note`,
     author: {
