@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Jul 2024 16:01:49 GMT</lastBuildDate><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[To host your Gatsby blog on GitHub, you can use GitHub Pages. Here's a step-by-step guide: Create a new repository on GitHub for your Gatsby…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Jul 2024 16:11:28 GMT</lastBuildDate><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[To host your Gatsby blog on GitHub, you can use GitHub Pages. Here's a step-by-step guide: Create a new repository on GitHub for your Gatsby…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8600b01c8fda0ffba8b042edfbe0663c/01e7c/robot_laptop.png&quot;
+    href=&quot;/rp-blogger/static/8600b01c8fda0ffba8b042edfbe0663c/01e7c/robot_laptop.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -17,10 +17,10 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Robot creating website&quot;
         title=&quot;&quot;
-        src=&quot;/static/8600b01c8fda0ffba8b042edfbe0663c/01e7c/robot_laptop.png&quot;
-        srcset=&quot;/static/8600b01c8fda0ffba8b042edfbe0663c/c26ae/robot_laptop.png 158w,
-/static/8600b01c8fda0ffba8b042edfbe0663c/6bdcf/robot_laptop.png 315w,
-/static/8600b01c8fda0ffba8b042edfbe0663c/01e7c/robot_laptop.png 512w&quot;
+        src=&quot;/rp-blogger/static/8600b01c8fda0ffba8b042edfbe0663c/01e7c/robot_laptop.png&quot;
+        srcset=&quot;/rp-blogger/static/8600b01c8fda0ffba8b042edfbe0663c/c26ae/robot_laptop.png 158w,
+/rp-blogger/static/8600b01c8fda0ffba8b042edfbe0663c/6bdcf/robot_laptop.png 315w,
+/rp-blogger/static/8600b01c8fda0ffba8b042edfbe0663c/01e7c/robot_laptop.png 512w&quot;
         sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
