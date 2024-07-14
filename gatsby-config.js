@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `新竹阿平開發筆記 - Hsin Chu RP's Dev Note`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `HP Hsu`,
+      summary: `喜歡玩些有趣小物的軟體工程師`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `平常完了很多東西，某天突然覺得要記錄下來`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      threads: `@tig4605246`,
     },
   },
   plugins: [
@@ -102,7 +102,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Hsin Chu RP's Dev Note RSS Feed",
           },
         ],
       },
@@ -110,15 +110,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `新竹阿平  開發筆記 - Hsin Chu RP's Dev Note`,
         short_name: `Gatsby`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#696969`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `#696969`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/laptop.png`, // This path is relative to the root of the site.
       },
     },
   ],
