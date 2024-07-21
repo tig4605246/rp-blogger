@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Jul 2024 16:11:28 GMT</lastBuildDate><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[To host your Gatsby blog on GitHub, you can use GitHub Pages. Here's a step-by-step guide: Create a new repository on GitHub for your Gatsby…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 21 Jul 2024 08:38:22 GMT</lastBuildDate><item><title><![CDATA[從0開始建立並發布Blog]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;
+ ________  ___  ___  ________  ________  ________  ________      
+|\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \|\   ___  \    
+\ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \\ \  \   
+ \ \_____  \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \  \\ \  \  
+  \|____|\  \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \\ \  \ 
+    ____\_\  \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \__\\ \__\
+   |\_________\|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|__| \|__|
+   \|_________|                                                  
+                                                                 
+                                                                 
+ _____ ______       ___    ___                                   
+|\   _ \  _   \    |\  \  /  /|                                  
+\ \  \\\__\ \  \   \ \  \/  / /                                  
+ \ \  \\|__| \  \   \ \    / /                                   
+  \ \  \    \ \  \   \/  /  /                                    
+   \ \__\    \ \__\__/  / /                                      
+    \|__|     \|__|\___/ /                                       
+                  \|___|/                                        
+                                                                 
+                                                                 
+ ___       ________  ___      ___ _______                        
+|\  \     |\   __  \|\  \    /  /|\  ___ \                       
+\ \  \    \ \  \|\  \ \  \  /  / | \   __/|                      
+ \ \  \    \ \  \\\  \ \  \/  / / \ \  \_|/__                    
+  \ \  \____\ \  \\\  \ \    / /   \ \  \_|\ \                   
+   \ \_______\ \_______\ \__/ /     \ \_______\                  
+    \|_______|\|_______|\|__|/       \|_______|                  
+
+  ****     ****
+*******   *******
+******** ********
+ ****************
+  **************
+    **********
+      ******
+        **
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[要在 GitHub 上托管 Gatsby 部落格，可以使用 GitHub Pages。以下是一步一步教學： 在 GitHub 上建立一個 repo 給 Gatsby Blog。 用模板建立一個 Gatsby repo： 將 GitHub repo 連結到 local git…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
     &gt;
@@ -28,56 +65,60 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;To host your Gatsby blog on GitHub, you can use GitHub Pages. Here&apos;s a step-by-step guide:&lt;/p&gt;
+&lt;p&gt;要在 GitHub 上托管 Gatsby 部落格，可以使用 GitHub Pages。以下是一步一步教學：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Create a new repository on GitHub for your Gatsby blog.&lt;/p&gt;
+&lt;p&gt;在 GitHub 上建立一個 repo 給 Gatsby Blog。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Initialize a new Git repository in your Gatsby project directory:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Add the GitHub repository as a remote:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git remote add origin https://github.com/your-username/your-repo.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure your Gatsby site to use the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; branch for deployment. Install the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; package as a development dependency:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Add a &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script to your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; file:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b gh-pages&quot;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure your &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; to use the correct &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; for GitHub Pages. Add the following line to your &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token literal-property property&quot;&gt;pathPrefix&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/your-repo&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token comment&quot;&gt;// ... rest of your config&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Replace &lt;code class=&quot;language-text&quot;&gt;/your-repo&lt;/code&gt; with the name of your GitHub repository.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Commit your changes and push to the GitHub repository:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git add .
-git commit -m &quot;Initial commit&quot;
-git push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Deploy your Gatsby site to GitHub Pages by running the &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This command will build your Gatsby site and push the generated files to the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; branch of your GitHub repository.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Go to your GitHub repository settings, navigate to the &quot;Pages&quot; section, and configure the source to use the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; branch.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Your Gatsby blog should now be accessible at &lt;code class=&quot;language-text&quot;&gt;https://your-username.github.io/your-repo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;用模板建立一個 Gatsby repo：&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Note: Make sure to replace &lt;code class=&quot;language-text&quot;&gt;your-username&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;your-repo&lt;/code&gt; with your actual GitHub username and repository name.&lt;/p&gt;
-&lt;p&gt;That&apos;s it! Your Gatsby blog should now be hosted on GitHub Pages. Whenever you want to update your blog, simply commit your changes and run the &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; command to redeploy your site.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npx gatsby new gatsby-starter-blog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;將 GitHub repo 連結到 local git repo：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; gatsby-starter-blog
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init 
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin https://github.com/your-username/your-repo.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;設定 Gatsby 以 &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; 分支進行部署。安裝 &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; 來做這件事：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;將 &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; 腳本添加到您的 &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; 文件中：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public -b gh-pages&quot;&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;配置您的 &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; 以使用正確的 &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; 用於 GitHub Pages。將以下行添加到您的 &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; 中：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token literal-property property&quot;&gt;pathPrefix&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/your-repo&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;token comment&quot;&gt;// ... 其他配置&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;將 &lt;code class=&quot;language-text&quot;&gt;/your-repo&lt;/code&gt; 替換為您的 GitHub 倉庫名稱。&lt;/p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;提交您的更改並推送到 GitHub 倉庫：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;git add .
+git commit -m &amp;quot;Initial commit&amp;quot;
+git push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;通過運行 &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; 腳本將您的 Gatsby 站點部署到 GitHub Pages：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;此命令將構建您的 Gatsby 站點並將生成的文件推送到您的 GitHub 倉庫的 &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; 分支。&lt;/p&gt;
+&lt;ol start=&quot;9&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;前往您的 GitHub 倉庫設置，導航到“Pages”部分，並配置源使用 &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; 分支。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;您的 Gatsby 博客現在應該可以通過 &lt;code class=&quot;language-text&quot;&gt;https://your-username.github.io/your-repo&lt;/code&gt; 訪問。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;注意：確保將 &lt;code class=&quot;language-text&quot;&gt;your-username&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;your-repo&lt;/code&gt; 替換為您實際的 GitHub 用戶名和倉庫名稱。&lt;/p&gt;
+&lt;p&gt;就這樣！您的 Gatsby 博客現在應該托管在 GitHub Pages 上。每當您想更新博客時，只需提交更改並運行 &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; 命令重新部署您的站點。&lt;/p&gt;</content:encoded></item></channel></rss>
