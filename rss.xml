@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 03 Aug 2024 16:00:17 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 03 Aug 2024 16:05:01 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot! 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -30,39 +30,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;如何與 Claude 互動來撰寫 LineBot&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/af975/image.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 43.67088607594937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABdUlEQVR42l2S63aCMBCEeZa2VpRLUCDc7wpK5ejx/d9lurtRj+2PkYS4385OsAKloNQWgXKNAhfKN3vPs2GvP7GxV/hefdD6C852jSyL0fc1kiRCHO+kxnU38H0HVhgGYEXhThTuA5FZKwJ78D0HrrMROY6NKAqQ5wnKMhNlmUZRJNA6gnW/X7EsM67Xi2i58Hqhdz84n0aczxOKPEWaanLivZwURUpnI06nI47HHm1boapyWOM4YJoOUjzPEx3U0rUoMiTUUb+JgR4BFcXBxQw7HDrUdUHnoURgpfTT941kwqA43j8U/oG9gN724TAThwwsy1wmSNMYVkWbrqvFWZrE0NSAD03g4T+gL3k+R+bpxOXQUY6J1NGlKAE2TSljsMu2qWSMhBv8B/oGyJnN8wl918j/O3pyjaX13gBpw13fxUDj0ugdyMW324KZLm0gh6y6LmENQ/tyx7lwHs9MGGiy0TISwxnGl8I3zxly/tw8pz1/Pr+HuCp1uoZagQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;&quot;
-        src=&quot;/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/f058b/image.png&quot;
-        srcset=&quot;/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/c26ae/image.png 158w,
-/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/6bdcf/image.png 315w,
-/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/f058b/image.png 630w,
-/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/40601/image.png 945w,
-/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/78612/image.png 1260w,
-/rp-blogger/static/29012275a7456ca7915e664e00b4f25c/af975/image.png 2478w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/h3&gt;
+&lt;h3&gt;如何與 Claude 互動來撰寫 LineBot!&lt;/h3&gt;
 &lt;p&gt;在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK 的新聞標題以及台灣股票價格，並能根據用戶訊息回覆相應內容。整個過程將逐步展示如何分解需求並撰寫對應的程式碼。&lt;/p&gt;
 &lt;h3&gt;開工前的準備&lt;/h3&gt;
 &lt;ol&gt;
@@ -252,8 +220,8 @@
         decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;
-最後，一套全靠嘴砲的 LineBot 就出生了。由於前面有要求所有 Secrets 都必須用環境變數取得，只需要在部署時提供變數就能跑起來啦
-這次分享的 source code 在&lt;a href=&quot;https://github.com/tig4605246/Claude-LineBot-Example&quot;&gt;這裡&lt;/a&gt;
+最後，一套全靠嘴砲的 LineBot 就出生了。由於前面有要求所有 Secrets 都必須用環境變數取得，只需要在部署時提供變數就能跑起來啦&lt;/p&gt;
+&lt;p&gt;這次分享的 source code 在&lt;a href=&quot;https://github.com/tig4605246/Claude-LineBot-Example&quot;&gt;這裡&lt;/a&gt;
 只要把指令描述清楚，就能讓 Claude 正確地幫你當碼農。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Special Thanks]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</guid><pubDate>Sun, 21 Jul 2024 08:41:54 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;
  ________  ___  ___  ________  ________  ________  ________      
 |\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \|\   ___  \    
