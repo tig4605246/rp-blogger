@@ -6,7 +6,7 @@ description: "用嘴巴讓 Claude 3.5 寫出bot，再部署到喜歡的地方"
 
 ![index-image](index-image.png)
 
-### 如何與 Claude 互動來撰寫 LineBot!
+### 如何與 Claude 互動來撰寫 LineBot?
 
 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK 的新聞標題以及台灣股票價格，並能根據用戶訊息回覆相應內容。整個過程將逐步展示如何分解需求並撰寫對應的程式碼。
 
@@ -38,7 +38,7 @@ description: "用嘴巴讓 Claude 3.5 寫出bot，再部署到喜歡的地方"
 
 ### 步驟二：與 Claude 碰撞出答案
 
-整理完之後就可以來壓榨 Claude 拉，我這邊會使用 Claude 3.5 Sonnet 來處理我的需求
+整理完之後就可以來壓榨 Claude 啦，我這邊會使用 Claude 3.5 Sonnet 來處理我的需求
 ![prompt-01](./prompt-01.png)
 
 輸入後 Claude 就會刷刷刷的把答案寫出來了，所有產生的 Code 可以在右側去點開來看:
