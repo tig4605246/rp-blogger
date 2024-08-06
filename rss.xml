@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 03 Aug 2024 16:48:44 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot? 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Aug 2024 11:38:41 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot? 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -222,44 +222,7 @@
     &lt;/span&gt;
 最後，一套全靠嘴砲的 LineBot 就出生了。由於前面有要求所有 Secrets 都必須用環境變數取得，只需要在部署時提供變數就能跑起來啦&lt;/p&gt;
 &lt;p&gt;這次分享的 source code 在&lt;a href=&quot;https://github.com/tig4605246/Claude-LineBot-Example&quot;&gt;這裡&lt;/a&gt;
-只要把指令描述清楚，就能讓 Claude 正確地幫你當碼農。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Special Thanks]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</guid><pubDate>Sun, 21 Jul 2024 08:41:54 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;
- ________  ___  ___  ________  ________  ________  ________      
-|\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \|\   ___  \    
-\ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \\ \  \   
- \ \_____  \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \  \\ \  \  
-  \|____|\  \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \\ \  \ 
-    ____\_\  \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \__\\ \__\
-   |\_________\|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|__| \|__|
-   \|_________|                                                  
-                                                                 
-                                                                 
- _____ ______       ___    ___                                   
-|\   _ \  _   \    |\  \  /  /|                                  
-\ \  \\\__\ \  \   \ \  \/  / /                                  
- \ \  \\|__| \  \   \ \    / /                                   
-  \ \  \    \ \  \   \/  /  /                                    
-   \ \__\    \ \__\__/  / /                                      
-    \|__|     \|__|\___/ /                                       
-                  \|___|/                                        
-                                                                 
-                                                                 
- ___       ________  ___      ___ _______                        
-|\  \     |\   __  \|\  \    /  /|\  ___ \                       
-\ \  \    \ \  \|\  \ \  \  /  / | \   __/|                      
- \ \  \    \ \  \\\  \ \  \/  / / \ \  \_|/__                    
-  \ \  \____\ \  \\\  \ \    / /   \ \  \_|\ \                   
-   \ \_______\ \_______\ \__/ /     \ \_______\                  
-    \|_______|\|_______|\|__|/       \|_______|                  
-
-  ****     ****
-*******   *******
-******** ********
- ****************
-  **************
-    **********
-      ******
-        **
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[要在 GitHub 上托管 Gatsby 部落格，可以使用 GitHub Pages。以下是一步一步教學： 在 GitHub 上建立一個 repo 給 Gatsby Blog。 用模板建立一個 Gatsby repo： 將 GitHub repo 連結到 local git…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+只要把指令描述清楚，就能讓 Claude 正確地幫你當碼農。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[要在 GitHub 上托管 Gatsby 部落格，可以使用 GitHub Pages。以下是一步一步教學： 在 GitHub 上建立一個 repo 給 Gatsby Blog。 用模板建立一個 Gatsby repo： 將 GitHub repo 連結到 local git…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
     &gt;
@@ -345,4 +308,41 @@ git push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;注意：確保將 &lt;code class=&quot;language-text&quot;&gt;your-username&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;your-repo&lt;/code&gt; 替換為您實際的 GitHub 用戶名和倉庫名稱。&lt;/p&gt;
-&lt;p&gt;就這樣！您的 Gatsby 博客現在應該托管在 GitHub Pages 上。每當您想更新博客時，只需提交更改並運行 &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; 命令重新部署您的站點。&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;就這樣！您的 Gatsby 博客現在應該托管在 GitHub Pages 上。每當您想更新博客時，只需提交更改並運行 &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; 命令重新部署您的站點。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Special Thanks]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</guid><pubDate>Fri, 02 Jan 1970 03:04:05 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;
+ ________  ___  ___  ________  ________  ________  ________      
+|\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \|\   ___  \    
+\ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \\ \  \   
+ \ \_____  \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \  \\ \  \  
+  \|____|\  \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \\ \  \ 
+    ____\_\  \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \__\\ \__\
+   |\_________\|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|__| \|__|
+   \|_________|                                                  
+                                                                 
+                                                                 
+ _____ ______       ___    ___                                   
+|\   _ \  _   \    |\  \  /  /|                                  
+\ \  \\\__\ \  \   \ \  \/  / /                                  
+ \ \  \\|__| \  \   \ \    / /                                   
+  \ \  \    \ \  \   \/  /  /                                    
+   \ \__\    \ \__\__/  / /                                      
+    \|__|     \|__|\___/ /                                       
+                  \|___|/                                        
+                                                                 
+                                                                 
+ ___       ________  ___      ___ _______                        
+|\  \     |\   __  \|\  \    /  /|\  ___ \                       
+\ \  \    \ \  \|\  \ \  \  /  / | \   __/|                      
+ \ \  \    \ \  \\\  \ \  \/  / / \ \  \_|/__                    
+  \ \  \____\ \  \\\  \ \    / /   \ \  \_|\ \                   
+   \ \_______\ \_______\ \__/ /     \ \_______\                  
+    \|_______|\|_______|\|__|/       \|_______|                  
+
+  ****     ****
+*******   *******
+******** ********
+ ****************
+  **************
+    **********
+      ******
+        **
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
