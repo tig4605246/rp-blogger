@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://tig4605246.github.io/rp-blogger</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Jan 2026 16:23:38 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot? 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://tig4605246.github.io/rp-blogger/line-bot-by-claude/</link><guid isPermaLink="false">https://tig4605246.github.io/rp-blogger/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://tig4605246.github.io/rp-blogger</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Jan 2026 17:23:54 GMT</lastBuildDate><item><title><![CDATA[OpenClaw：一個 AI 實習生助手（Windows + VirtualBox + Ubuntu VM 安裝筆記）]]></title><description><![CDATA[你可以把 OpenClaw 想像成「AI 實習生助手」：
+它不只會聊天，也能在你的工作環境裡實際動手做事——跑指令、讀寫檔案、排程、抓資料、維護專案。 這篇文章會做兩件事： 用白話解釋 OpenClaw 是什麼、適合誰 在 Windows 本機用 VirtualBox…]]></description><link>https://tig4605246.github.io/rp-blogger/openclaw-ai-intern/</link><guid isPermaLink="false">https://tig4605246.github.io/rp-blogger/openclaw-ai-intern/</guid><pubDate>Sun, 01 Feb 2026 00:30:00 GMT</pubDate><content:encoded>&lt;p&gt;你可以把 &lt;strong&gt;OpenClaw&lt;/strong&gt; 想像成「AI 實習生助手」：
+它不只會聊天，也能在你的工作環境裡實際動手做事——跑指令、讀寫檔案、排程、抓資料、維護專案。&lt;/p&gt;
+&lt;p&gt;這篇文章會做兩件事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用白話解釋 OpenClaw 是什麼、適合誰&lt;/li&gt;
+&lt;li&gt;在 &lt;strong&gt;Windows 本機&lt;/strong&gt;用 &lt;strong&gt;VirtualBox&lt;/strong&gt; 建立一台 &lt;strong&gt;Ubuntu VM&lt;/strong&gt;，並在 VM 裡把 OpenClaw 跑起來&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：以下流程不會要求你把任何 token/機密寫進文章或 repo。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2&gt;1) OpenClaw 是什麼？&lt;/h2&gt;
+&lt;p&gt;很多人對 AI 的第一印象是「聊天」，但只要你開始做專案，很快會想要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;幫我整理資料、產出報告&lt;/li&gt;
+&lt;li&gt;幫我寫/改 code、跑測試、修小 bug&lt;/li&gt;
+&lt;li&gt;幫我每天固定做例行事（備份、抓新聞、更新部署）&lt;/li&gt;
+&lt;li&gt;幫我在 Discord / Telegram / 其他 channel 裡接收指令並回覆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OpenClaw 的核心價值在於：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;它是可以使用工具的 AI assistant&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;不是只給答案，而是能在你的環境裡「把事情做完」。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;它有 state / workspace / skills 的概念&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;把可重複流程變成 skill（例如 &lt;code class=&quot;language-text&quot;&gt;/news&lt;/code&gt;），久了就像讓實習生熟悉你的 SOP。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;它適合跑在一個獨立的 Linux 環境&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;例如 Ubuntu VM：安全、乾淨、跟 Windows 隔離，出問題也好復原。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2) 為什麼用 Ubuntu VM？&lt;/h2&gt;
+&lt;p&gt;在 Windows 直接跑也不是不行，但 VM 有幾個實際優點：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;隔離&lt;/strong&gt;：你的 bot、依賴、token、workspace 都在 VM 裡，不會把 Windows 搞亂。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可複製&lt;/strong&gt;：要換機、要重建，VM 一份就搞定。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更貼近部署環境&lt;/strong&gt;：很多服務（Node、Linux 工具）在 Ubuntu 上就是比較順。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;3) 用 VirtualBox 建立 Ubuntu VM（建議規格）&lt;/h2&gt;
+&lt;h3&gt;3.1 先準備&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;VirtualBox（Windows 版）&lt;/li&gt;
+&lt;li&gt;Ubuntu Desktop ISO（新手推薦 Desktop，比較少坑；熟悉 Linux 才選 Server）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;建議 VM 配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU：2 cores 以上&lt;/li&gt;
+&lt;li&gt;RAM：8GB（最低 4GB）&lt;/li&gt;
+&lt;li&gt;Disk：60GB（最低 30GB）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3.2 VirtualBox 建 VM 的重點設定&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;New → Type 選 Linux / Ubuntu (64-bit)&lt;/li&gt;
+&lt;li&gt;Memory 設 4096MB 以上（建議 8192MB）&lt;/li&gt;
+&lt;li&gt;CPU 設 2 cores 以上&lt;/li&gt;
+&lt;li&gt;Disk 建 VDI（dynamically allocated）&lt;/li&gt;
+&lt;li&gt;掛載 Ubuntu ISO → 開機安裝&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;（安裝完成後建議順手做）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;4) 在 Ubuntu VM 裝 OpenClaw（推薦：一鍵腳本）&lt;/h2&gt;
+&lt;p&gt;我把常見的安裝步驟包成一支腳本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;會裝：curl / git / build-essential&lt;/li&gt;
+&lt;li&gt;會裝：Node.js 22&lt;/li&gt;
+&lt;li&gt;會用 &lt;strong&gt;~/.npm-global&lt;/strong&gt; 當 npm global prefix（避免 sudo npm）&lt;/li&gt;
+&lt;li&gt;會 &lt;code class=&quot;language-text&quot;&gt;npm install -g openclaw&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4.1 下載/執行腳本&lt;/h3&gt;
+&lt;p&gt;在 Ubuntu VM 裡：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 進到你想放腳本的位置，例如家目錄&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ~
+
+&lt;span class=&quot;token comment&quot;&gt;# 你可以直接把下面內容另存成 setup-openclaw.sh&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 然後：&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x setup-openclaw.sh
+./setup-openclaw.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;腳本內容（同 repo 版本）：&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/usr/bin/env bash&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-euo&lt;/span&gt; pipefail
+
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; update
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; ca-certificates build-essential
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;node&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;/dev/null &lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;&amp;amp;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-fsSL&lt;/span&gt; https://deb.nodesource.com/setup_22.x &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-E&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;bash&lt;/span&gt; -
+  &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-y&lt;/span&gt; nodejs
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.npm-global&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; config &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; prefix &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.npm-global&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-q&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;NPM_GLOBAL&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.bashrc&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;/dev/null&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.bashrc&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;RC&apos;
+
+# NPM_GLOBAL (OpenClaw)
+export NPM_GLOBAL=&quot;$HOME/.npm-global&quot;
+export PATH=&quot;$NPM_GLOBAL/bin:$PATH&quot;
+RC&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+
+&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;NPM_GLOBAL&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$HOME&lt;/span&gt;/.npm-global&quot;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$NPM_GLOBAL&lt;/span&gt;/bin:&lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-g&lt;/span&gt; npm@latest
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-g&lt;/span&gt; openclaw
+
+openclaw &lt;span class=&quot;token parameter variable&quot;&gt;--version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;5) 初始化 OpenClaw（第一次必做）&lt;/h2&gt;
+&lt;p&gt;OpenClaw 裝好後，通常第一輪會做兩件事：&lt;/p&gt;
+&lt;h3&gt;5.1 建立基本設定與 workspace&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;openclaw setup&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;5.2 互動式導覽（建議跑一次）&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;openclaw onboard&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;這會帶你設定：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用哪個模型/供應商（例如 OpenAI / Gemini 等）&lt;/li&gt;
+&lt;li&gt;要接哪些 channel（例如 Discord）&lt;/li&gt;
+&lt;li&gt;workspace 放哪裡、skills 怎麼管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小提醒：Discord bot token 這種機密資料，建議只放在 VM 裡的設定檔/環境變數，不要 commit 到 repo。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2&gt;6) 讓它像「實習生」一樣工作：排程 + skills&lt;/h2&gt;
+&lt;p&gt;OpenClaw 的爽感通常來自兩件事：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;把常用流程做成 skills（例如：抓新聞、整理摘要、維護網站）&lt;/li&gt;
+&lt;li&gt;用 cron/排程把例行事自動化（例如每天備份、每天抓資料）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;當你把 SOP 固定下來，它就會越來越像「你帶出來的 AI 實習生」。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;結語&lt;/h2&gt;
+&lt;p&gt;如果你只需要聊天，任何 LLM 都能做到。
+但如果你想要的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;能在你環境裡實作&lt;/li&gt;
+&lt;li&gt;能幫你維護專案&lt;/li&gt;
+&lt;li&gt;能把流程自動化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那 OpenClaw 這種「工具型 AI 助手」就會非常適合。&lt;/p&gt;
+&lt;p&gt;下一篇我會把「如何把 OpenClaw 接到 Discord」寫成完整流程（含常見坑）。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot? 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://tig4605246.github.io/rp-blogger/line-bot-by-claude/</link><guid isPermaLink="false">https://tig4605246.github.io/rp-blogger/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
