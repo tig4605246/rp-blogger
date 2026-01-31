@@ -1,0 +1,47 @@
+name: Deploy Gatsby site to GitHub Pages (gh-pages)
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build
+        env:
+          GATSBY_TELEMETRY_DISABLED: "1"
+        run: npm run build -- --prefix-paths
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          # Use a stable, human-readable author for the gh-pages commits
+          user_name: Metamon
+          user_email: metamon@users.noreply.github.com
+          commit_message: "deploy: ${{ github.sha }}"

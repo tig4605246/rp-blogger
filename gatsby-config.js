@@ -16,7 +16,7 @@ module.exports = {
       summary: `喜歡玩些有趣小物的軟體工程師`,
     },
     description: `平常完了很多東西，某天突然覺得要記錄下來`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://tig4605246.github.io/rp-blogger`,
     social: {
       threads: `@tig4605246`,
     },
