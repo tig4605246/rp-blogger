@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 08 Aug 2024 16:41:48 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot? 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hsin Chu RP's Dev Note RSS Feed]]></title><description><![CDATA[平常完了很多東西，某天突然覺得要記錄下來]]></description><link>https://tig4605246.github.io/rp-blogger</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Jan 2026 16:23:38 GMT</lastBuildDate><item><title><![CDATA[建立 Line AI 聊天機器人全靠嘴砲！]]></title><description><![CDATA[如何與 Claude 互動來撰寫 LineBot? 在這篇教學文章中，我們將介紹如何與 Claude 互動以撰寫一個符合特定需求的 LineBot。這個 LineBot 需要每天推送 CNN 和 NHK…]]></description><link>https://tig4605246.github.io/rp-blogger/line-bot-by-claude/</link><guid isPermaLink="false">https://tig4605246.github.io/rp-blogger/line-bot-by-claude/</guid><pubDate>Sat, 03 Aug 2024 15:07:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -11,7 +11,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEn0lEQVR42hWSSWwbBQBFhwuoAiEuHBBHJCRA4kYpYodCq1Zq2lJIipXUzVLHaRK7qROaUtdtnDqLXTux43Wc8TKezZ7xLB7P2J7xeOIldmK7SVjEoopu4lSkVgIBSg/BSP/w9aV3+f8DCVamxAqfb2TlBq/UeaUhqhuFakvZ2MlX2x2TrzTz1ZZU35Jq7U4ilFuZUpMSqwSvAginwJzkYdNwNp/JqmxW5UWVZqSQL8HxiiitxaIkw0rxWCq8mgwH0YAf9XrgGJ5lpXWAydbMZOLCXWKCA6PBlHsBJHHeZwcn+6cd11dSGMvTuaAj1He4b+C0QXN04PThs72Hzk4aZsW1TYDJrTuT1BDit8DxWDAV9iI8I6UQ9prJjkYoDMkEMJ4iMiWxiEPErfrGw9/vVFQ1leRosQxQ+SqRLEAeDIc5IsGIbB6DiIADRCE8y4hgEB+xQRBE8UkOhZJFUXG7wsMj06uxVKZQBdKFGoILoBcF3XA2LbgXfeYJazSE5WgR9WMRZyzhQyvFco6T8AiZ52WHI3T1mhtDOV6qAbRcRwkxGsAzaQkPE+YJm28ZQn2JMd2E/uqFwRvGgQnD1Lkr3sXwdctyPELNEbQRRGFMEOQqwCkbNFOMh1ASYeYuu0iU9d0IfG7QHrt7+fjezJE960dPru7nR06dGgzMR3BUiIQYmxUCw0xhbQMQlKafp42t4IVaCIEpbpV8X9v78uNL7z5ZXPmnlNptG/8kX9qzvCgM93aNwRCTwAQowiQpqVDuwKWmN80cwx3d2HKG4i0D156P9+97PC0/2N7bffLv7u7e7t7F3yjgD8Pbg1poHoJBnMbZsAcTlXUgU9oUxPLyTBB0xSUmrz2hB+Sh1+7Zv793e/ZOyvZL2v4rnXzQBG4b3jAPzo/OJyBy7pJrNYBLlSYg1XeWluIxD7TqDAVdkbHuiy9g5575cYr/efv+34/v/fXo/sNHphYF7Izs1w/Nm5zVasNnhzK8IpTqgFhth6PMpfG5y8YFlzcxPWh9S98PVIf6+TBZ34JbrUkh9TRz7jli+OhnZ6MgWcjKJMKmiKxca3fa3hSL634fDndqSIsLi2D3h4Ovm3X7YN1T3q+AlR4A7Hl2VXfguGb0jCUaxJEgvjwbTMTYUmMbECptBBftFp/fEQk4ozyXt1kCXe9oD5zsfdU48MrUwJvD2o8/+Vpz1MBwcngpgkJU504UmS/VbwEZtUlny/4VwuMlIuG0a9bvsnp9Xmy0z9L96fkv3tNpDhktU+4Fq1/fPXZeO6nXXNQcGZqbWVEbW//DKabkd2ORIJlCuKAb9tyMytliIb+GEIIPpNFUAeaVmSmbUWMcOjE62mMY7NKb9DPq5nZnqhaSLLidSCLC+O2hidPGiBfjOIVlinKxxqbVqliJItkrpnnz2Oz4mW+tpjnbNwtT4zapdgvgSs1EUnLZ4TBIW6c9pz7oc9pAKq2QdDEdywqELGB5Nb9uNi32HBk7eVDf22X48qBuXDcr17cAurhJ5tYTaRVNq5niJkIqObWdU5odlapbjZ2f5Pp3cv2HdKZ804k4XcjNJcy2EI/iBbHa/g8BodyNLZSHhQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEnUlEQVR42hWRXUwTBwDHzydjtix72Mv2vCwxe9jLoiYz0RjNMrb4GR2iCBYoIBZaBBSVL8toS2mBln7dHXct1/tqe9/Xu7bX9gr0C0pB2bKvuDn1aYmJW+ISx5YxfPs//H/5J78/EBWyrFpMpqtKtirnq7K+pi6vacUNvbadKdUzxXp6dSNdrGuVLa1U3wvKSl3SN5hUkZYLAC7qmKgtiBympKVkQUjqslrgBA3y4YKcV7WVpQjDC9pSOAbBNBjEA358wYuFSVnQygCfLI0kMMsTyiJC4VDcOw0zdNLvhAYNwzMTvjgpylwqNAO2NLS0N5mbv2q/0mBo+cIwaJ5Ul9cBPlV2x1gjHhjDIktgHF7AJS4Tx4WJASeBJghcDBIyQ0t5JUsi9Ga5+vuzX5bzeowWeXUFYDIlOq4hXpLCRBrnVSG9Vwo6IRKNKUIKhugeO4IgCYkSCCSWU3IeN9TZfWcxEpcyRYDNlHFKBX04OI8lWdXj8N23WCMQleZUwk+grjDuJ4r51ZSkUWgiLWddM9DohIckRFkrAXyuQtBqJEhLnEbB9Ej/VGAeIf24ydjfPWJpt5rbLL1DHfd8zsXxsXkMZewx3gyTGKUo2SIg5tc4PoeBBIML9nuzCULwTwVPmVtP/3b37O6Dhl3r8X9GDyV7LlxsD9gRklAQkJ96gEAwn1lZA5R8LSDzlg3QUgJxjBGQxNHWqx/8eeezf6e9r/X4zqb5VeL93fH3lK7m0yZskccJZRHhYglNewPrNR/LnyVdjcS8xMqjbWPvLBkO/HE3+/zRfzs7r3f+3t3ZHfiVBV70He5oRWyLGERxlAB7STVfBiR9XVaW56zB0Gwkw6Wun7+xL9Nx8Knz22ePp54w9p941888/XwdeNz78f12R68DRxOO4XkkFNNWa4BWeTQ3j4W9yKIbBOfQm1/fepcy7v/+dvLHh0//evn01ctnL14O1hlg+8ahGx32AXexWPU7EWnveL0CqMU6HOZvm2zDZvusDxtue/BptwEoG9uScKKyhdXqQ0p8v2B8O9bVcKo1DDEZJcsQQpxWsqX6nu11NVcO+KgllIuxqmMaunSs7eCo8UC0a5//EuBrBODGtxDj4XNNN6+NhUMUDtKeyVA0IujVLUBZreOU4hz1B2fQoDssixnbePDMkdYj55o/Mhs+HDJ80nn9xPHLV7/sE8QcPBcmURb2YCyT1iubgFSoccnVwALt9dEozM5aA7OT/oCfNF0bbzzRc+Fo55XPzeNDXsdkoOvSzZ6Wwa6mW00N7bYJb2FveQ+O83rAQ6KheByXwAXcM4NmpGw6pWNU0gsy0Vg6IuUmBqYsVy2dF0ymy+aOs92DPdbl9YeAWNjAYxmPKxpFeb8T7L/ch/pIUcjxXDajFflEfjW5Esbk+wP20d5v+lrvWQdsttuOoV6b9kaYXovGtFknBkOcddh78ViL2wYxXJ7hc2wkqcSyCpkupMsjt6YbG0znT3Y3n+m7eLKzt3MyW9kCuPx6IlWOsgWCLUi5Gp7QU4XNlL6h5mt6cau6/UO2sp2tfsfJKy4X7nYTM3PklGMpTGlqcfN/yDPcxCDpXFwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -72,7 +72,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACXUlEQVR42m1U25aiQAzka3ZUroOIdxTxAgI64/V4dv9h//+pNpUGxzOzD3WSpulKJem0Zfc6+I5O9w29F0TBGHF/IUjg2LZ8+6Xfux1jX89ati3OC1yngziwEYY+fN9BELjoh30M45HYCIHvwfNs+J6DQRSKlQC9Nwlkzlt0WvQkQuh2cZpHSJdzbDcr7LYZ1tkSZbkTuzDrdar75X6HqB+gK4R2wyGEXRgYyYzW0TTent903zHWdXrwXFuV0XedrqyN5b7liEP2JJlhv89FSYGyyFGJ3YuCssyx222w2WTYbtfIshSjUYzhcKA2FptMh/hbjBBIECUkxuMYn58HXK/nBidcLp8KBiKZIV4pKdOmZaD5bIJUSKnaolQijiPk+RaHQ6Woqr2qXSzmz8Mt0jRBtlpiJSDhdCq3QNR6hrCntWAKp9MHbrczCiGmqqLYNtg16Reo673uMzi/004mI8lwqJ23XBZUQIVVVWjNalFXN/6hLtUyVSpK04WqXC5FpXQ/y1ZfhP43wloOn88fRg0bJKBSpk/CtjHr9Zc/n0+1OT8I25Tv94sStOnk+UbTPh4rVceDrFmLVt2TkIUkSEiivKnP8Vjrur06JKSi9vD/4PuuIaTC2WysDaHC+/2KP78fZn27qn08bnKtjlpHptiCRK3PMX0SsshUQhUGmRafBK9XhmumyUGYyf2bTIZ6tbhuCB24QspBX8rGQjbiQV8eAVdT4FVgbV7xHngYDEJ5MCJMZCCSZColi0Au6/mjkMZxqKBq2zazbGa48+U75lXRF0YG4l1UEcySTfkH92MY013OLxMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACUklEQVR42m1UWXbiMBD0ZSZgvOKdxTa7MbYhrJm8lzvM/b96ulrIL2Hmo+iWJZWquiUMyxrSK0xzQCNgpBCNJ5SGJSVhQY5t8dwbf8e6N5n/vtd4JXPsISW+RUHgkefZ5PsOhUFIaZJxjMj3XHJdizzXpjgKOFo/SA2bfzQsPjVwTDrnES0XOW23K6p2a9qsS2qaSqIaL2W+OVQUhT6Zo19CZitCkxRAqKwOhm8Sradl6zknm2yTXGckKpE7AI8RFSEnWFgUc1axp7atRQ3i4bCXb1W1ZbVr2u02tGZ1WZZQmsYSE47FLKU/dUZjPkQIgckkpfP5RI/HVXC/X+h2UwApyPZ7RQzSzWbFWMo4n09pyaSop+E8ZSdJxBt2dDy2gq49UNvUtOBaYTNIFBHXb1lyvqDVaiF1ns34FrDaJyH8j8TC9fIu6up6x3YrjpXKOWLc8AFdd6CaDxbw9z3PT6eZOETnDSkoAwpbVgV72NR2Kj8eG4mwBkVK3ZKVF73qntB7ITx2DV2v7081qiFoDA6Cbd2Y73mez6Q5/xDC8oUtf3zchUDssC00ArZPp47VFbIRNdPQ6npC3Ccgy2IhUiSKAGOt9nRq+VJv+s3/g+c5ihAK5/MJN+TGCm+i8uvrUxqEMeLn74dcK9QRFjVApHM8054QRdb3TUHdNxDo4usxbOIhQAQIyzLn8UwT2mI54oe+4ImSFyZxyH8CjljAVUBt+pwx9l2K44D/MCKaThIhS9OIwGWoxWphkgQCz7P6d2vbOupcwbIG8m08dgRwiab8BV/oGQGYaHYpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -99,7 +99,7 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.53164556962025%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAByklEQVR42lVTWW7rMAz0QR7QokviepGd2JblRfISp2n784De/y4sZ9IE6MeAiiwOh0MmsraSrrNyKHMxWSLGKPJEkmQncfyieL0jedtJmuwlS+JrTGMC51LzijyW6PnpgZd59vYn7l6f5PHx3x/E+xd+a+qDTNMgbVtLrsWLIhOjKFVU9PFxlm1bZF1nOZ0WOTHOct5WOZ9XxhBG7aLVxFxV7sW5Rt8HEjbNUYkyCgFxNM9e5slrRS/eD0TwowxDJ+PYEziDsCyNpKqwqkq972RZJkXQ3JFna2uJav0YfM+KXmMIA9G2jVav7oDX8BlK4DEIv74uBDpCURI6lQ2VuEQ1KPLE9QEJ66PYBoTm7tkwOLm8b8yBeucs248mVQMPQQhiKLWuFXOspGoa+gc7+r6j6TfCvm/pMfIg4uZnNGolVMEHJgfPdqv61mrNx4iHstB2U12tlL6hXQwVufCeLVtlhWeUrrKBoXcEKtY1cGCEQpAByPn8vHA70AFI0XaEw7t6senKjEEHMwVdlYXrAhUAPMJQMF2TZ1KAUBV9f/+nQohZ14nrFG2aCO/gieuuwD8HJL2q7Pj7ekZLxmRU2P4OE5uBAeENCv4AZz5o/nv+T30AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 52.53164556962025%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAByklEQVR42k1SbXOyMBDMD+lMnT61Im+iQEICJCCgtl860/7/33LP7aFOP+xclNze7l6U0SU5q+lYZJRnMeV5LDWOdxRFW9rfgXMcf1CaRIKEv/89F9x3yCJS/95e5c8s3T9rwnW7faPN6wttNnfwOdq9y526OlIILRlTUcbDD4dUULAodbsuNE8jjedA0zTQ+TzQxJjnMy0MVN+3ZK3hpozi/Y6apuZ7QQjr+ihkKQtBVePgaQi9AI0C31LXWYYTtK0VwqLIRX1ZFvJ9HL0ghE6q5vgUPnrvWFVgMkfBr4TG1Dy9fELrSnJGJLAJwq+vqwDOMBR3VMOyh6G/2/XUs6IV6wUhrE6kuR5Z4SOztm3ocplEmeWlrgJOpKBonkchBDFIdcN5nUqq6prVdmypJ+eshP4gdM7QsiDjgXp29iTseBKmgBDNgDGaymq1iosIf7V8YMKECRPJDXZvt0V6e85eLGtmRWYivdGC1jUCEFZs9wEozPNEgJ7Pz6tsGw5A2nCvwuFyneXpdJ4zDJ6fyyhPBioAbBgbxALzjN8cCFnR78+3KIQYEOM5KTQiO2TS2BUIGSSOVVr5vZ5hKc9TUWjuy0R+WBDuYOB/e0tpC7yAFWQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -125,7 +125,7 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABxElEQVR42j1SZ5qrMBDLbRKCAfeGaSHt/hfSk71v94e+cQHNSPLFWYWcI/KcYK2GNYr1P4yEnAREf8M4dFBStH3FNPY8u7Pe27pWowQu3mls+4ZRaUitMM8kz4ENAoK30HrCWD82Fst2oJQdy3og5gJtPZRxUNq1KlkvIVh8v0+cjw2lkiWPFCtc29f7n0kitDswqcLmBYOeMaiE22DRDa7h2ltcqrT3+8T388S6rZiMZjcDSUyE1pITUpIK0IGEdoHyhKu1wEQ2MAG98rgJEnrK2o+twYSAq5hwkx5CkVBrEqrmkeAkQi8YTOFdQj+RZIoN9zGgE+6HMMSIeV0xLwu9XBHLAhsSnKNnJSJSep2wHwzENKOrPw++EdxH39ATXQVlX6pP38+J1+vAh7I/lP9+PfA4Vuz70pKvoQwTjQ8nZNibVEELqn/X3jTU6dqEpSSSnXg+DxJsOM+D+wfTzC1tz1AmPpO74DOihyZucInI1c/8F8gfYU6BJDseTDnOGWVdcFD6zEbLMlO6aYQdCTsm3csEISORmXLmPjcPa8It5fqo6zSRT+UXITgkNlrXud1V0kEyIJsYlOPaNoy/UI7nvuEfcMBDYQ3nQxUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvklEQVR42lWSZ7KkMBCDuc0EbJwT2IThTbj/hbTt3rdTtT++MoZCltQegjeYl4x5LvDeEgbhl/6slYAYr5jkHUYLaILXaeR3itZ/OCMxxGCx7RsmY6GtwcLiichI0cNahWm6wzmPth2odUdbD+RSYX2EceGLtgFDSgGfzxPnY0PtYiWi5MD0fRdlJyrDhQPKVjq8QtoF0hRcpcdtCrQGXITH0GO9Xife7x+s2wrlLJ3moAlFWKvJIUUyCTYd0L7BxBUmELHCZTrAJYwm4toFY/LYj41xKeEiNa46QhhPbrqg4X4EORG2QbpG3wpGRSLkunOfEm4i/BXMJWNZVyytcZe5NvhcEChqqxmZoneHo3QQaqF49LOMLHCfIjMStw7FHnpPH4r7fB4c+03xX88HHseKfW88+T4Uqaj4dEKnneJWcpm4v8vomO6OHdZaSOzEz8/Bsc/zoP2DpjnztHsliq7OXRiqZKfONviyIcw0ID+zq85XsP90njseNOW8zKgU/9ipAjqotQUhOBa8kWCPO+oC8Yu0M60zd3gZPTP0+9bd5By/9KtUSsK6Liwao4PUBjYUGlTEpP3/mMDvO38AuMhDiHZiNfcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -152,7 +152,7 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 30.37974683544304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABIUlEQVR42lVP7W6DMAzkVSata/lsIYkDawuEj9IhTYi1q7b3f5CbE5i0/TidfXYuZy8MdxBpgSSOEUc+4jhAxJqr/yBaZ/+00EcYbBd9hWeFI03YJwd+tHVLvr/hesef+M48CF7WPnAGVrMcsr55fnJ9tH7iWddMxCDKQEpAawWlMiiZQZNArqWDnVnWJHlua8W7EkWhkecEITIHzzoPQ4/vr0/M84Tbx4T7fcbjccMwjjg3Hcr2gmNVM/e4vI28946uaxjGsTGVC2LhJUkAoRT2khgaibCsIHSOpqlR1xWquoSxtanZoEVZHjlN6q5w4MTEyYnUcnJVndH1LVpeHq4DitMJUSqR6gIp5TgoDSpe0feGTyROQi7Nr4k9faklfgA5WcLwQww23wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 30.37974683544304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABIElEQVR42lWQ607CQBCF+ywmqL3sYruX6UVoKWyLkqAgSHj/BznObmuiP77szJn7Rmn6DJXXkEJAZDGESJCxFuw/ZHPsn8Z5SfI06TNRykJjj1iKFy7iYBojjhdsc1PxW/Q4+zyM873m6zyLxUPws3lI5JMKJWGtYjSIDKxRMLoAsV+RRskQx8PL+HhZmmDXFbFtoVQBzUS+8zg63O/fOJ8/cPn6xPV6xu12wf5wwKp3WG9HNN2G3wHD2ztOpyOc22K36+GYvm/DAE8kZQJlDJbaMgSpDCTbisqQ2HYTm75Dt+mw40brdcMb5eEKzRjemGi6LpIiRduu4AY/cYv9fkT92iDNNXKqUNgSL4ZgqxqD61HxiUQ2FPsvsXY63dqJH2Y+wyyfXjuaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -178,7 +178,7 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 34.810126582278485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABTklEQVR42lVQW26DMBDkKJXSNhjbQABjKKmSEAcIj0Cj9rP3P8Z0bdGo/RjtenZ2ZmWPB1ukcYlQhBB8CykYLGer4L7Db295HviPOfNfIOzsDzyfbVBX38jid0j5iigSbjmOODgFhGFAvUBENQq5Mwolc/zz5ok0/j94Ll34bllwuo6zR7UIglUcbNeLmbvS8qHkiGNJCLFb4Qzr+oh5njCOV0xTj9ttdP0wdFjmEUW1R5xXUG97jMRZTd+3NCf92KOqSuS5gtYKnk00psb9PpPRQIIrlmXC1+cHhYxu6XwxOJ0NTNOgaS9ou5YCB6ez8444rTMHz36kMSdnuNCVtTGoyeDSdWRSgycaMsmh9wfIVIMlBdhOIy9LtI1BWdLMXrfCkzLA4bBHSynGHJHkBXickomC3NmaIVMK184g0wUE8Qm98zyFUinVbIVy+AHZcuVN4cbOugAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 34.810126582278485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABS0lEQVR42k1P23KCMBTkUzpjW4EQ7glQtRYJiFwEddq3/v9nbE8idnzY2ZPNye7GYu4acZCDez48tiZ2oLUHe8w2s2ZzdhcmzbHfDD/Dsp0Vqu0v0mgHzt8RBh5d2HemgMB3zRz4zECb+9wx+uvqBUwHPcHSC5w/ElwS7/xIZNTovx3T831H6z4FhCEn+IgWGMOqKjHPI8axw/ncY5oGDEOHvu8wTyPyzQ5htoX42GHoW7PXdS3NJ4y0t9kUkFIgyyQsj9KUOuB6nYyZXr6S+c/3hcwG9PRA1QplpVA3DZpjjfZ0xDD2uFBYT6ZtW5NZamDpbylV4nabTZuDUqjqGs2pRakqsCSDF0vI7Sc8mt04hxNlkEWB9qhQFBKZbrfA4tzFfr+ly5qMvxDLHCxMyCSFFyXgxKkQ6KhFmuWkC8RCP04g0oS+mi4QBn8ppuWWJTiQcgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -202,7 +202,7 @@
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 31.645569620253163%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABLklEQVR42j1Q2XKCQBDkV5IKAntzBAUliXLDKpr//5fO7GrlYap7Z/ooCFiskOsfRNE7BI8hhZsEnEd+/E4mEOKJnEVew5IdJN2UYmBshzgOoSRHwGKDwvQ+0BkUhSn5FDmjJoPR/B9diSJdEn/44tRIJEmIMHwjP0MQ0YGLCFpLGKOQphp5niLLDKQSENQqpCCuXijoplEUqcc0VeSTnue5QaBI0HUtpmnAsoywdsbvYyM+I68bZPsKRf1F/BtZ1aCsamzbFdvNYpknz7vugsNhT1O6QO4Xw9D5UGsXElkvvN/JSHO7rbhSkV1nPOjtNK7Yha7rhHHscTxWKD9zBO67m+aI5lTjcv72ocPQom3PmEg4UZEr7PvXju59f0FHfBw7nMjnflFZFtiXBf4AfovFsoy+QbIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 31.645569620253163%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABLklEQVR42jVPWXbCMBDLVdoHxPGWtQYDaQtxEpJmgd7/LurY0I95I2skjSfiTKFMvxDH75CCQUoGJRMIEYfynFLJk6cueBwwT3ZQNNOag/MdGNtAK4FIsAxV1lHgWzBoCtPqKVJkTMmQpSL0PJUhUJPOB/jFeaaQsC22G+/niPxAyJgMioYaRUELqhxFmUERp2irVJKwhqS3pnpqitDzPEX28pXkibSWcO6K263DMPSYfgb8PlaM44DyWKPYW5T2k/AXClvDWIt1nbAsE0bSe+zcBdYaHA7GBwq07RV97yiwwzyPJJpxv894PBbqC1YyL9OImcpzXvOv8x+49S3OJwvzUSLyd9f1KdTl+h1+2nUNmuYShH3nwgVt++Jo3roGjnDvg85HOjWHMRX2psIfkunF29HzVzcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -222,7 +222,44 @@
     &lt;/span&gt;
 最後，一套全靠嘴砲的 LineBot 就出生了。由於前面有要求所有 Secrets 都必須用環境變數取得，只需要在部署時提供變數就能跑起來啦&lt;/p&gt;
 &lt;p&gt;這次分享的 source code 在&lt;a href=&quot;https://github.com/tig4605246/Claude-LineBot-Example&quot;&gt;這裡&lt;/a&gt;
-只要把指令描述清楚，就能讓 Claude 正確地幫你當碼農。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[要在 GitHub 上托管 Gatsby 部落格，可以使用 GitHub Pages。以下是一步一步教學： 在 GitHub 上建立一個 repo 給 Gatsby Blog。 用模板建立一個 Gatsby repo： 將 GitHub repo 連結到 local git…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+只要把指令描述清楚，就能讓 Claude 正確地幫你當碼農。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Special Thanks]]></title><link>https://tig4605246.github.io/rp-blogger/special-thanks/</link><guid isPermaLink="false">https://tig4605246.github.io/rp-blogger/special-thanks/</guid><pubDate>Sun, 21 Jul 2024 08:41:54 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;
+ ________  ___  ___  ________  ________  ________  ________      
+|\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \|\   ___  \    
+\ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \\ \  \   
+ \ \_____  \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \  \\ \  \  
+  \|____|\  \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \\ \  \ 
+    ____\_\  \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \__\\ \__\
+   |\_________\|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|__| \|__|
+   \|_________|                                                  
+                                                                 
+                                                                 
+ _____ ______       ___    ___                                   
+|\   _ \  _   \    |\  \  /  /|                                  
+\ \  \\\__\ \  \   \ \  \/  / /                                  
+ \ \  \\|__| \  \   \ \    / /                                   
+  \ \  \    \ \  \   \/  /  /                                    
+   \ \__\    \ \__\__/  / /                                      
+    \|__|     \|__|\___/ /                                       
+                  \|___|/                                        
+                                                                 
+                                                                 
+ ___       ________  ___      ___ _______                        
+|\  \     |\   __  \|\  \    /  /|\  ___ \                       
+\ \  \    \ \  \|\  \ \  \  /  / | \   __/|                      
+ \ \  \    \ \  \\\  \ \  \/  / / \ \  \_|/__                    
+  \ \  \____\ \  \\\  \ \    / /   \ \  \_|\ \                   
+   \ \_______\ \_______\ \__/ /     \ \_______\                  
+    \|_______|\|_______|\|__|/       \|_______|                  
+
+  ****     ****
+*******   *******
+******** ********
+ ****************
+  **************
+    **********
+      ******
+        **
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[從0開始建立並發布Blog]]></title><description><![CDATA[要在 GitHub 上托管 Gatsby 部落格，可以使用 GitHub Pages。以下是一步一步教學： 在 GitHub 上建立一個 repo 給 Gatsby Blog。 用模板建立一個 Gatsby repo： 將 GitHub repo 連結到 local git…]]></description><link>https://tig4605246.github.io/rp-blogger/hello-world/</link><guid isPermaLink="false">https://tig4605246.github.io/rp-blogger/hello-world/</guid><pubDate>Sun, 14 Jul 2024 15:24:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
     &gt;
@@ -235,7 +272,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEiklEQVR42hVUSW8bBRSeP8CpBVWotJRWLQJaSmnDkqZNlC52Emdx0iSOl8R24mVsj/dlPPZ47Nn3xZ6xs7RJnaRJUZNCUgptQ1VEQSxCiF6RQEhwQIgLVy5MpU/v9r3ve+99egDP4hJPSPzzqgikLBCySMoyQxEECyZKE2lBpAmKQ3I0x/NwkaxrnCZTkkAqIgUIHKkIxHNwuChTokRpIkWT5Uel4Wf27pa9Cg9BKpQvDcbpEpEZQSrFmiQxmkyrEgkILC7zuMzVBKHWyuWXCggrMCt04W/04h6Cr5EUuq/XdzYyMQDnQihuy8TcmYK/yuBEXaUBgScVk8zWOA7fhDPbUJYQuHxYoU9N3daXVp0p3wweeHfIdg6EYkoiqUTsEaIviWQrTZ01bRMyWzVto2k0O5NHRIMOge7K2ivYz5d7yjl8OSU0sbO2uTft3gHE1luJxvT0rACH4IbOAebCRKaqMWWmiMApkqaolagrl1F7Pv/nRd9DzJ73vj4xcmZa56+HPWzxXKenwwXaSrAjwcgCwNMYywt8e7up8u721z7YUByW6OXpueWnp4WfwMGs/cBw+lo5mV1cUtQHRrx2yRJ7tT/QA5k0gGcwXhTCq9/n15/WFjclKLm71E50BR8v89lYffxtX2gIXZMXHIHmvIjs5u3FC4Oew315V6rRMGdmME4UU8uP0dtfodpG1FvaubWVOeBexbxrKqVnkw/ufXKvvRR6D+q+UMp1TTCnevuPuwrxQkPjADMbNdGILT5C2w8XFuXt2FXHCecH1ho168lB2MzGDwqS+2O8P32iMNmf29n+6LOZ0cY7zmC0VMEZgKeqJC+ntr4MC5vrgveXmI3eP+sPoBxLMPE0mBaZTnfzrdjYmWDXy44v7t6ZT+NzR6acrjzJcUDYjxcrrarRLqXLRpnNX6P8h6cSIyAaLMasIb+96L1EW09M9b6fCPRMJV0+z5wYuBjIgrCh80Acqlnob7zMfaS6XMMXIk7YenL86sno6Fmw96XxDzvLvQM04Q3+enP0P/7ks67zOWsBOu8koildFwG6XJoqb8zs/eVt/eisfTqdW13fvE8aW+G4xOarOFTjR9D1anVrcGzvYF/BIuQPBVMDPpUz48kDukYnU4x79/cbzSf+lWcRdrf58Duw/iASb60Q1bs0krQU+l6bHnsh4tg3N3AsajnqDjuTPEXWFfNULGPt8HZeITx3f/N9+++4vEemsq70arB6K1Npg6NYwAp3HJr02WIxNzLWV7UcC58+6J2bjDcbAiCJbCKY6z4+cWq/wxLZdO/8WUJvcokg6wve4m4vrHzs80iRMJneeELHpdC5WX9XBEMJXWXrKgfIEjNvcIYupnyJiweH3zgOjYfa+J37INFOOum+y8VCBttJVqAOf/9wEUsWDENoGrwms3WFAxSRMX9CXaIXW1KjIYKTse4jE8ERbNSOu6eRUOl6piyGh9J4GDEarN4UVYVTFFYzYSorMleXmbrCqBKja9z1G1pd5hyjqSvT8izc8gaZRJpRG0JzSalrvKo8FzRhttAU7n9NzjzxKCHR/wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEgUlEQVR42iXS2W8TVxQG8PkH+lJRUSFaigQUqYAoqyihSYRpnMQhsQ1OYsd2bMd7vMRjj8fLeJl97tzxLN6CA2RxgAQREGkQTaCou4oqVYLHSlVVqeoDUh/62LdOWunT0X356dO5OogIqJrI1ERajwIZWY/EyDLP0rQQSRITqChxFAvyGAegmMszdQ1oMleDjCKxiCQyutmNSEkyC2VWk1iWIXaK5teW3hsWMjeaUOPZ4miCK9Jpc6GcJ2uyoHu1xiAQULJIyYCEkJzH8Ft4UYD8Mou/IXqfFahVmi3tMXhPR2ymXCZEkCPpmCuNe6scRddVDoHibqcskECk1nLpjXiGgSAbUvgT9vutm11HyjtNBU+PjpyNxGPK3JwStUTp4bkCVm43gd5M61KBdDldykzjeanFh8LOcnd/5ZWhv5SlluZgq3Lmqv8jy7Qpf9VQjsWa6AzMhXINHYsCJfFVjSf4fCGXYjiWXYo6sbTa/8Vf7/i2K2bMc9Q2dsrdhLfDLqFw9qL7nDMyUsxNJPkaRESuIogQrGy0VeBc+d6Xa6l2Y+yKy3/7u5PSq+goZn13DL1emsssLMjqditOXh6YPTAc6I/rDIF8RZRgpPsyu/oN2blXS8xtdpaSn4afLcJ0vD5xaiY0SnRh2+5vz8PCJnat0Ds6fXAYm0o1GvwuBpKUWnxRvv8toa1FPcTj1QfoXme34llV2WYmubP1eGt5IXQ+0ddLpHvG+ROXTUem8ATe0ACi3wYptWMLz0orO50FeWN2YOJDxwUjyc64sFjZffcnpZD9wzaMHslODGObD9efeqyNjx2hWLFC84jIkqwopza+Dktrd6Dnl5iJ2zPj85eAQPPJdBSFoMfZPh63ngr17LM/f7TRQSn/QbtjKssAgIR9VL5yo9ruFtFSixAwG+P7wJ60REuhfGww5LXkPQZu8KjdcCEZ6J9MTfncfhjoDWQiuVZLRBJx0sj94OWfFMhFiurMOnKDx68PHJ+1nokY9to+6SkZTBwzHfx1+do/4Njr3kvYEB7vcdCxVKMpIRxRtBP33F++8dz42UE+cWPdu+tP2fbDUKIGcJKKk6K5dKdafTBybWffUHZQwt8PpoY9KqDrmog0NQ5FedfW77ebL3yLr6L8563tl5H6djQxv0RVH3GFpBE3HXJb34pOvh0wHZodPOyKOFOQZeqKoF8YbzznvThAOx/95vvx7+u153QyPYWuBqr3UsRKyFIODOLnD4zPXJ2Nu/K2oarxUOTk/mn/RKLdgIgsCckg1nfEdmLPhDG67tr6kygvg0QAeAN3xfWF5cdeVy0aZtC1r7iEHDrt812KVkp0UxXqKkCUGt9pg3YTpnzJvvfMxw7HxoMr5P0nEWo5aeeHrhTwTGUzVUmc95nG8mQKb7XgfAtqilBX/sMKZOs1rjMvNepSdDLed3A8aK5YzZTTXQgVb6GEFBlDqXCx2RCaLUlTgKoAfWp68+5L5vXttRrf1MCtRa0ug0kr+plbmcnNe4J8EuW1ptS+qerfqypCQwX1/70K/gXJLT05nvi91wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -308,41 +345,4 @@ git push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;注意：確保將 &lt;code class=&quot;language-text&quot;&gt;your-username&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;your-repo&lt;/code&gt; 替換為您實際的 GitHub 用戶名和倉庫名稱。&lt;/p&gt;
-&lt;p&gt;就這樣！您的 Gatsby 博客現在應該托管在 GitHub Pages 上。每當您想更新博客時，只需提交更改並運行 &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; 命令重新部署您的站點。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Special Thanks]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/special-thanks/</guid><pubDate>Fri, 02 Jan 1970 03:04:05 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;=sh&quot;&gt;&lt;pre class=&quot;language-=sh&quot;&gt;&lt;code class=&quot;language-=sh&quot;&gt;
- ________  ___  ___  ________  ________  ________  ________      
-|\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \|\   ___  \    
-\ \  \___|\ \  \\\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \\ \  \   
- \ \_____  \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \  \\ \  \  
-  \|____|\  \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \\ \  \ 
-    ____\_\  \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \__\\ \__\
-   |\_________\|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|__| \|__|
-   \|_________|                                                  
-                                                                 
-                                                                 
- _____ ______       ___    ___                                   
-|\   _ \  _   \    |\  \  /  /|                                  
-\ \  \\\__\ \  \   \ \  \/  / /                                  
- \ \  \\|__| \  \   \ \    / /                                   
-  \ \  \    \ \  \   \/  /  /                                    
-   \ \__\    \ \__\__/  / /                                      
-    \|__|     \|__|\___/ /                                       
-                  \|___|/                                        
-                                                                 
-                                                                 
- ___       ________  ___      ___ _______                        
-|\  \     |\   __  \|\  \    /  /|\  ___ \                       
-\ \  \    \ \  \|\  \ \  \  /  / | \   __/|                      
- \ \  \    \ \  \\\  \ \  \/  / / \ \  \_|/__                    
-  \ \  \____\ \  \\\  \ \    / /   \ \  \_|\ \                   
-   \ \_______\ \_______\ \__/ /     \ \_______\                  
-    \|_______|\|_______|\|__|/       \|_______|                  
-
-  ****     ****
-*******   *******
-******** ********
- ****************
-  **************
-    **********
-      ******
-        **
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;就這樣！您的 Gatsby 博客現在應該托管在 GitHub Pages 上。每當您想更新博客時，只需提交更改並運行 &lt;code class=&quot;language-text&quot;&gt;npm run deploy&lt;/code&gt; 命令重新部署您的站點。&lt;/p&gt;</content:encoded></item></channel></rss>
