@@ -114,10 +114,10 @@ module.exports = {
         name: `新竹阿平  開發筆記 - Hsin Chu RP's Dev Note`,
         short_name: `Gatsby`,
         start_url: `/`,
-        background_color: `#696969`,
+        background_color: `#0d0d0d`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        theme_color: `#696969`,
+        theme_color: `#cc0000`,
         display: `minimal-ui`,
         icon: `src/images/laptop.png`, // This path is relative to the root of the site.
       },
