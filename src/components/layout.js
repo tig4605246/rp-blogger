@@ -11,6 +11,10 @@ const Layout = ({ location, title, children }) => {
   ])
   const chatEndRef = React.useRef(null)
 
+  // Mobile drawers
+  const [navOpen, setNavOpen] = React.useState(false)
+  const [chatOpen, setChatOpen] = React.useState(false)
+
   React.useEffect(() => {
     const interval = setInterval(() => {
       const users = ["Ghost", "Cipher", "V", "Decker", "Echo", "Rogue"]
@@ -41,20 +45,70 @@ const Layout = ({ location, title, children }) => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" })
   }, [messages])
 
+  // Prevent background scroll when a drawer is open (mostly for mobile)
+  React.useEffect(() => {
+    const open = navOpen || chatOpen
+    if (open) document.body.classList.add("drawer-open")
+    else document.body.classList.remove("drawer-open")
+
+    return () => document.body.classList.remove("drawer-open")
+  }, [navOpen, chatOpen])
+
+  const closeAll = () => {
+    setNavOpen(false)
+    setChatOpen(false)
+  }
+
+  const openNav = () => {
+    setNavOpen(true)
+    setChatOpen(false)
+  }
+
+  const openChat = () => {
+    setChatOpen(true)
+    setNavOpen(false)
+  }
+
   return (
-    <div className="cyber-container">
+    <div className={`cyber-container ${navOpen ? "nav-open" : ""} ${chatOpen ? "chat-open" : ""}`.trim()}>
       <div className="scanlines"></div>
       
+      {/* Mobile top bar */}
+      <div className="mobile-topbar" role="navigation" aria-label="Mobile navigation">
+        <button
+          className="mobile-btn"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded={navOpen}
+          onClick={() => (navOpen ? closeAll() : openNav())}
+        >
+          ☰ NAV
+        </button>
+
+        <button
+          className="mobile-btn accent"
+          type="button"
+          aria-label="Open live chat"
+          aria-expanded={chatOpen}
+          onClick={() => (chatOpen ? closeAll() : openChat())}
+        >
+          ▣ CHAT
+        </button>
+      </div>
+
+      {/* Overlay for drawers */}
+      <div className="drawer-overlay" onClick={closeAll} aria-hidden="true" />
+
       {/* Sidebar Navigation */}
-      <aside className="cyber-sidebar left">
+      <aside className="cyber-sidebar left" data-drawer>
         <div className="sidebar-header">
           <div className="glitch-text" data-text="NAV_CORE">NAV_CORE</div>
         </div>
         <nav className="cyber-nav">
-          <Link to="/" className="nav-item" activeClassName="active">
+          <Link to="/" className="nav-item" activeClassName="active" onClick={closeAll}>
             <span className="nav-icon">▰</span> HOME
           </Link>
-          <Link to="/" className="nav-item">
+          <Link to="/" className="nav-item" onClick={closeAll}>
             <span className="nav-icon">▱</span> LOGS
           </Link>
           <div className="nav-item disabled">
@@ -96,7 +150,7 @@ const Layout = ({ location, title, children }) => {
       </main>
 
       {/* Message Board Sidebar */}
-      <aside className="cyber-sidebar right">
+      <aside className="cyber-sidebar right" data-drawer>
         <div className="sidebar-header">
           <div className="glitch-text" data-text="LIVE_STREAM">LIVE_STREAM</div>
         </div>
