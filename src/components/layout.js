@@ -2,8 +2,9 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+  // Be defensive: in some render paths `location` may be undefined.
+  const pathname = location?.pathname || `/`
+  const isRootPath = pathname === `/`
   
   const [messages, setMessages] = React.useState([
     { id: 1, user: "SYSTEM", text: "Connection established.", type: "system" },
